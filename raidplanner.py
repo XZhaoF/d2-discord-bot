@@ -7,7 +7,7 @@ from discord.ext.commands import Bot
 from discord.utils import find
 
 #_Token = open("discordtoken.txt", "r").readline()
-_Token = "OTUyODM2NzYyODUyNTQwNDM4.G4k7e0.M6-YnKPdZM7CKk6Jg5Q5BKibqQRIzAYxbCQtt8"
+_Token = open("discordtokentest.txt", "r").readline()
 
 # Set up logger and intent permissions
 intents = discord.Intents.all()
